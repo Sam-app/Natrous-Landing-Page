@@ -10,6 +10,8 @@ $color-primary :#55c57a;
 $color-primary-light:#7ed56f;
 $color-primary-dark:#28b485;
 
+$color-dark :#777;
+
 *,
 *::after,
 *::before{
@@ -27,7 +29,7 @@ body {
    font-weight: 400;
    font-size: 1rem;
    line-height: 1.7;
-   color: #777;
+   color: $color-dark;
    padding:3rem;
    box-sizing: border-box;
 }
@@ -160,7 +162,7 @@ body {
 
 .btn--white{
     background-color: #fff;
-    color: #777;
+    color: $color-dark;
 }
 
 .btn::after{
