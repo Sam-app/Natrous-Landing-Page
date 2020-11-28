@@ -4,13 +4,13 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Samuel Mebrahtu",
   "license": "ISC",
   "devDependencies": {
     "node": "^11.9.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.14.1"
   },
   "dependencies": {}
 }
