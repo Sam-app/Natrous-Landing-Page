@@ -1,3 +1,18 @@
+/*
+0 - 600PX:      PHONE
+600- 900PX:     TABLET PORTRAIT
+900 - 1200PX :  TABLET LANDSCAPE
+1200 - 1800     IS WHERE NORMAL STYLE APPLY
+1800+           :BIG DESKTOP
+
+*/
+/*
+ $breakpoint argument choices:
+ - phone
+ - tab-port
+ - tab-land
+ - big-desktop
+ */
 @keyframes moveInRight {
   0% {
     opacity: 0;
@@ -35,6 +50,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (min-width: 1800px) {
+    html {
+      font-size: 75%; } }
+  @media (max-width: 1200px) {
+    html {
+      font-size: 56.35%; } }
+  @media (max-width: 900px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
