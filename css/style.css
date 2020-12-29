@@ -50,13 +50,13 @@
 
 html {
   font-size: 62.5%; }
-  @media (min-width: 1800px) {
+  @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
-  @media (max-width: 1200px) {
+  @media (max-width: 75em) {
     html {
       font-size: 56.35%; } }
-  @media (max-width: 900px) {
+  @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
 
