@@ -16,7 +16,6 @@
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
   <body>
-
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
       <label for="navi-toggle" class="navigation__button">
@@ -40,7 +39,6 @@
       <div class="header__logo-box">
         <img class="header__logo" src="img/logo-white.png" alt="logo" />
       </div>
-
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Outdoors</span>
@@ -78,6 +76,7 @@
           </div>
         </div>
       </section>  <!-- End of about section -->
+
 
       <section class="section-features">
         <div class="row">
@@ -119,7 +118,10 @@
           </div>
         </div>
       </section> 
+
       <!-- End of features section -->
+
+
 
       <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
@@ -221,7 +223,10 @@
         <div class="u-center-text u-margin-top-huge">
           <a href="#" class="btn btn--green">  Discover all tours </a>
       </section>  
+
       <!-- End of tours section  -->
+
+
 
       <!-- Stories section -->
       <section class="section-stories">
@@ -320,12 +325,22 @@
           </div>
         </div>    
       </section>
+
       <!-- End ofBooking form section -->
     </main> 
 
+
+
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="full logo" class="footer__logo">
+
+        <picture class="footer__logo">
+          <source  srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" 
+              media="(max-width : 37.5em)"> 
+          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="full logo" >
+        </picture>
+
+       
       </div>
       <div class="row">
         <div class="col-1-of-2">
@@ -369,6 +384,5 @@
         </div>
       </div>
     </div>
-
   </body>
 </html>

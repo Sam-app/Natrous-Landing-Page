@@ -43,13 +43,13 @@
 
     
     @if $breakpoint == phone {
-        @media (max-width : 37.5em) { @content } //width < 600px
+        @media (max-width : 37.5em) { @content }; //width < 600px
        //@media (max-width : 600px) { @content }; //width < 600px
      }
           
      @if $breakpoint == tab-port {
-        @media (max-width : 56.25em) { @content }  // width < 900px
-    //@media (max-width : 900px) { @content };  // width < 900px
+        @media (max-width : 56.25em) { @content };  // width < 900px
+    // @media (max-width : 900px) { @content };  // width < 900px
 
      }
 

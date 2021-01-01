@@ -1,5 +1,6 @@
 .composition{
     position: relative;
+
     &__photo{
         width: 55%;
         box-shadow: 0 1.5rem 4rem rgba($color-dark, .4);
@@ -7,6 +8,7 @@
         position: absolute;
         transition: all .2s;
         outline-offset: 2rem;
+        
 
         &--p1 {
             left: 0;
@@ -28,7 +30,11 @@
             transform: scale(1.05);
             box-shadow: 0 2.5rem 4rem rgba($color-dark, .5);
             z-index: 20;
-        }        
+        }     
+        
+        @include respond(tab-port){
+            z-index: 10 ;
+        }
     }
 
     &:hover &__photo:not(:hover) {
