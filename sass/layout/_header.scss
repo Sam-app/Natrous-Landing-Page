@@ -11,7 +11,8 @@
     position : relative;
 
     @media (min-resolution : 192dpi) and (min-width : 37.5em),
-     (min-width : 125em) { // 192 dpi is min dpi reference  for high resolution screen
+            (-webkit-min-device-pixel-radio : 2),
+            (min-width : 125em) { // 192 dpi is min dpi reference  for high resolution screen
         background-image:linear-gradient(to right bottom,
             rgba($color-primary-light,0.8)
             ,rgba($color-primary-dark, 0.8)),
